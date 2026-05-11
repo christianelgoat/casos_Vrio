@@ -12,11 +12,11 @@ export const caso3 = {
   id: "case-3",
   title: "Caso 3: Costos Hundidos y Tragedia Disruptiva en 'Luminar Dynamics'",
   content: (
-    <div className="space-y-8 font-serif leading-relaxed text-lg text-gray-800">
+    <div className="space-y-8 font-serif leading-relaxed text-base text-gray-800">
       
       {/* Abstracto Ejecutivo */}
       <div className="bg-[#111827] text-white p-6 rounded shadow-lg border-l-4 border-[#D4AF37]">
-        <h3 className="text-[#D4AF37] font-bold text-2xl mb-4 tracking-wide font-sans uppercase">Abstracto Ejecutivo</h3>
+        <h3 className="text-[#D4AF37] font-bold text-xl mb-4 tracking-wide font-sans uppercase">Abstracto Ejecutivo</h3>
         <p className="mb-4 text-gray-300">
           Luminar Dynamics, el monarca casi centenario y aristocrático de la óptica de precisión fotográfica (cámaras DSLR puras de espejos físicos), sucumbió a un derrumbe apocalíptico del 88% de su mercado masivo en apenas 60 meses. Su balance inicial de la Matriz EFI era abrumador: patentes de cristal óptico insuperables, y un "brand equity" mundial que equivalía a calidad artesanal sinónima de lujo fotográfico profesional sin fisuras aparentes.
         </p>
@@ -31,7 +31,7 @@ export const caso3 = {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* PESTEL y Porter */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <Globe className="mr-2" size={24}/> La Ceguera Computacional (PESTEL)
           </h4>
           <p className="mb-4">
@@ -44,7 +44,7 @@ export const caso3 = {
 
         {/* Gráfico Financiero de Colapso */}
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-center">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <Activity className="mr-2" size={24}/> Evaporación Transaccional
           </h4>
           <div className="w-full">
@@ -64,7 +64,7 @@ export const caso3 = {
       {/* Barreras de Salida y Dilema del Innovador */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
         <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
-           <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+           <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <CircleX className="mr-3" size={24}/> La Trampa de las Barreras de Salida
           </h4>
           <p className="mb-4">
@@ -76,7 +76,7 @@ export const caso3 = {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-           <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+           <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <TrendingDown className="mr-3" size={24}/> El Dilema del Gran Innovador
           </h4>
           <p className="mb-4">
@@ -93,7 +93,7 @@ export const caso3 = {
         <div className="absolute top-4 right-4 text-[#A51C30] opacity-10 transform scale-150 origin-top-right">
           <TrendingDown size={120}/>
         </div>
-        <p className="text-2xl leading-relaxed relative z-10 font-bold">
+        <p className="text-xl leading-relaxed relative z-10 font-bold">
           "Luminar Dynamics sucumbió agonizando lentamente y en total negación asfixiante, siendo trágica, arrogante pero operativamente perfecta a niveles ridículos. Esculpieron artesanal y devotamente con el amor meticuloso de cien directores ciegos un producto milagroso óptico y exquisito, que simplemente las crueles leyes mundiales dictaminadas del algoritmo y del bolsillo desplazaron a la obsolescencia. Fabricar la armadura más resistente de toda la historia es un chiste brutal de la ironía temporal en la plena guerra universal moderna de pólvora encendida de chips rápidos de procesamiento neuronal y NPU ágiles infinitos del instante y la conectividad permanente conectiva incesante sin fin."
         </p>
         <p className="mt-6 font-sans font-bold text-sm text-[#A51C30] uppercase tracking-wider relative z-10 block">

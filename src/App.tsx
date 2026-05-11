@@ -81,7 +81,7 @@ export default function App() {
       <nav className="bg-[#A51C30] text-white px-4 md:px-8 py-3 flex flex-col md:flex-row justify-between items-center shadow-md drop-shadow max-w-full overflow-hidden">
         <div className="flex items-center mb-4 md:mb-0">
           <Award className="text-[#D4AF37] mr-3 shrink-0" size={28}/>
-          <span className="font-serif font-bold text-xl tracking-wider uppercase">Élite Stratégique</span>
+          <span className="font-serif font-bold text-lg tracking-wider uppercase">Élite Stratégique</span>
           <span className="text-[10px] text-[#D4AF37] font-sans font-bold ml-4 uppercase tracking-widest mt-1 hidden sm:inline-block">MIT - Harvard</span>
         </div>
         <div className="flex space-x-2">
@@ -100,14 +100,14 @@ export default function App() {
 
       {/* HEADER */}
       <header className="text-center py-10 md:py-14 px-4">
-        <h1 className="text-3xl md:text-5xl font-serif font-bold text-[#A51C30] mb-4 tracking-tight drop-shadow-sm">Estudios de Caso Nivel Harvard/MIT</h1>
-        <p className="text-gray-500 font-serif italic text-base md:text-lg flex items-center justify-center">
+        <h1 className="text-2xl md:text-4xl font-serif font-bold text-[#A51C30] mb-4 tracking-tight drop-shadow-sm">Estudios de Caso Nivel Harvard/MIT</h1>
+        <p className="text-gray-500 font-serif italic text-sm md:text-base flex items-center justify-center">
           <Book size={20} className="mr-2 text-[#D4AF37]"/> Análisis profundo de escenarios empresariales complejos.
         </p>
       </header>
 
       {/* MAIN CONTAINER */}
-      <main className="max-w-5xl mx-auto px-4 pb-24">
+      <main className="w-full max-w-7xl xl:max-w-[1400px] mx-auto px-4 md:px-8 pb-24">
         
         {activeTab === 'casos' ? (
           /* VISTA DE CASO (DOCUMENTO) */
@@ -134,7 +134,7 @@ export default function App() {
             
             {/* Cuerpo del Documento */}
             <div className="p-6 md:p-12 lg:p-16">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#111827] mb-10 flex flex-col md:flex-row md:items-start leading-tight">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#111827] mb-10 flex flex-col md:flex-row md:items-start leading-tight">
                 <div className="w-5 h-5 bg-[#D4AF37] mr-4 mt-2 flex-shrink-0 hidden md:block"></div>
                 {activeContent.title}
               </h2>
@@ -184,19 +184,19 @@ export default function App() {
                   <div className="flex justify-between items-end mb-10 border-b border-gray-100 pb-6">
                     <div>
                       <p className="text-[#A51C30] text-[10px] md:text-xs font-sans font-bold uppercase tracking-widest mb-2">Impacto Analítico</p>
-                      <h2 className="text-5xl md:text-6xl font-serif font-bold text-[#111827] flex items-baseline">
+                      <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#111827] flex items-baseline">
                         Q{currentQ + 1}
-                        <span className="text-2xl md:text-3xl text-gray-300 font-light ml-1">/{activeContent.questions.length}</span>
+                        <span className="text-xl md:text-2xl text-gray-300 font-light ml-1">/{activeContent.questions.length}</span>
                       </h2>
                     </div>
                     <div className="text-center bg-[#F8F9FA] px-4 md:px-6 py-3 rounded border border-gray-100">
                       <p className="text-gray-400 text-[9px] md:text-[10px] font-sans font-bold uppercase tracking-widest mb-1">Score Total</p>
-                      <div className="text-2xl md:text-3xl font-serif font-bold text-[#D4AF37]">{score}</div>
+                      <div className="text-xl md:text-2xl font-serif font-bold text-[#D4AF37]">{score}</div>
                     </div>
                   </div>
 
                   {/* Pregunta */}
-                  <h3 className="text-xl md:text-2xl font-serif font-bold text-[#111827] mb-8 leading-relaxed">
+                  <h3 className="text-lg md:text-xl font-serif font-bold text-[#111827] mb-8 leading-relaxed">
                     {activeContent.questions[currentQ].q}
                   </h3>
 
@@ -239,7 +239,7 @@ export default function App() {
                           <span className={`w-10 h-10 flex-shrink-0 font-sans font-bold text-sm flex items-center justify-center mr-5 transition-colors rounded-sm border ${letterStyle}`}>
                             {letters[idx]}
                           </span>
-                          <span className="text-base md:text-lg flex-1 mr-4">{opt}</span>
+                          <span className="text-sm md:text-base flex-1 mr-4">{opt}</span>
                           <div className="w-6 hidden md:block">
                             {rightIcon}
                           </div>
@@ -265,14 +265,14 @@ export default function App() {
                 <div className="text-center py-12 animate-in zoom-in-95 duration-700">
                   <div className="w-40 h-40 mx-auto bg-white rounded-full flex flex-col items-center justify-center shadow-[0_0_40px_rgba(212,175,55,0.3)] border-8 border-[#D4AF37] mb-8">
                     <span className="text-gray-400 text-xs font-sans font-bold uppercase tracking-widest mb-1">Certeza</span>
-                    <div className="text-5xl font-serif text-[#111827] font-bold">
-                      {Math.round((score / activeContent.questions.length) * 100)}<span className="text-3xl text-[#D4AF37]">%</span>
+                    <div className="text-4xl font-serif text-[#111827] font-bold">
+                      {Math.round((score / activeContent.questions.length) * 100)}<span className="text-2xl text-[#D4AF37]">%</span>
                     </div>
                   </div>
                   
-                  <div className="space-y-6 max-w-2xl mx-auto">
-                    <h3 className="text-4xl font-serif text-[#A51C30] font-bold">Diagnóstico Ejecutivo Completado</h3>
-                    <p className="text-gray-600 text-xl font-serif leading-relaxed">
+                  <div className="space-y-6 max-w-4xl mx-auto">
+                    <h3 className="text-3xl font-serif text-[#A51C30] font-bold">Diagnóstico Ejecutivo Completado</h3>
+                    <p className="text-gray-600 text-lg font-serif leading-relaxed">
                       El comité evaluador ha procesado tus respuestas para el <strong>{activeContent.title}</strong>. Evidenciaste la capacidad de resolución en <strong className="text-[#111827]">{score}</strong> de los <strong className="text-[#111827]">{activeContent.questions.length}</strong> vértices críticos.
                     </p>
                     

@@ -12,11 +12,11 @@ export const caso2 = {
   id: "case-2",
   title: "Caso 2: Fusiones, Choques Culturales y Destrucción de Valor en 'Nexar & Zenith'",
   content: (
-    <div className="space-y-8 font-serif leading-relaxed text-lg text-gray-800">
+    <div className="space-y-8 font-serif leading-relaxed text-base text-gray-800">
       
       {/* Abstracto Ejecutivo */}
       <div className="bg-[#111827] text-white p-6 rounded shadow-lg border-l-4 border-[#D4AF37]">
-        <h3 className="text-[#D4AF37] font-bold text-2xl mb-4 tracking-wide font-sans uppercase">Abstracto Ejecutivo</h3>
+        <h3 className="text-[#D4AF37] font-bold text-xl mb-4 tracking-wide font-sans uppercase">Abstracto Ejecutivo</h3>
         <p className="mb-4 text-gray-300">
           Nexar Holdings, un banco comercial colosal atrapado en un ROE anémico del 1.2%, adquirió a la ágil Zenith FinTech por $18,000 millones. Zenith ostentaba un ROE del 32.5% impulsado por calificación crediticia basada en Machine Learning y datos no estructurados.
         </p>
@@ -32,7 +32,7 @@ export const caso2 = {
         
         {/* PESTEL y Porter */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <Activity className="mr-2" size={24}/> PESTEL y 5 Fuerzas
           </h4>
           <p className="mb-4">
@@ -45,7 +45,7 @@ export const caso2 = {
 
         {/* Gráfico Financiero de Destrucción ROE */}
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-center">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <Target className="mr-2" size={24}/> ROE: Destrucción de Valor
           </h4>
           <div className="w-full">
@@ -66,7 +66,7 @@ export const caso2 = {
       {/* VRIO y Contratos */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <Network className="mr-3" size={24}/> Asfixia del Modelo VRIO
           </h4>
           <p className="mb-4">
@@ -78,7 +78,7 @@ export const caso2 = {
         </div>
 
         <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <RefreshCcw className="mr-3" size={24}/> El Apocalipsis Contable
           </h4>
           <p className="mb-4">
@@ -95,7 +95,7 @@ export const caso2 = {
         <div className="absolute top-4 right-4 text-[#A51C30] opacity-10 transform scale-150 origin-top-right">
           <TriangleAlert size={120}/>
         </div>
-        <p className="text-2xl leading-relaxed relative z-10 font-medium">
+        <p className="text-xl leading-relaxed relative z-10 font-medium">
           "Nexar no adquirió a Zenith, invadió un ecosistema al que no comprendía y lo sepultó. Su arrogancia procedimental pulverizó la Organización del modelo VRIO logrando lo imposible: transmutar Oro FinTech valiosísimo en simple barro burocrático. Es el colmo contable: comprar talento, asfixiarlo forzadamente, y ver cómo se marcha al instante con tus $18,000 millones."
         </p>
         <p className="mt-6 font-sans font-bold text-sm text-[#A51C30] uppercase tracking-wider relative z-10 block">

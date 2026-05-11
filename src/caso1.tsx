@@ -17,10 +17,10 @@ export const caso1 = {
   id: "case-1",
   title: "Caso 1: El Colapso de la Cadena de Suministro en 'OptimaTech'",
   content: (
-    <div className="space-y-8 font-serif leading-relaxed text-lg text-gray-800">
+    <div className="space-y-8 font-serif leading-relaxed text-base text-gray-800">
       {/* Abstracto Ejecutivo */}
       <div className="bg-[#111827] text-white p-6 md:p-8 rounded shadow-lg border-l-4 border-[#D4AF37]">
-        <h3 className="text-[#D4AF37] font-bold text-2xl mb-4 tracking-wide font-sans uppercase">Abstracto Ejecutivo</h3>
+        <h3 className="text-[#D4AF37] font-bold text-xl mb-4 tracking-wide font-sans uppercase">Abstracto Ejecutivo</h3>
         <p className="mb-4 text-gray-300">
           OptimaTech, otrora monarca indiscutible en la fabricación de microprocesadores de ultra-baja latencia para dispositivos IoT industriales, se encuentra al borde de la asfixia financiera. Durante una década, sus balances exudaban una perfección irrefutable: una rentabilidad sobre el capital invertido (ROIC) sostenida por encima del 24% y márgenes operativos que rivalizaban con monopolios tecnológicos.
         </p>
@@ -34,7 +34,7 @@ export const caso1 = {
 
       {/* Sección 1: Análisis Histórico y VRIO */}
       <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-        <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-2xl">
+        <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
           <Cpu className="mr-3" size={28}/> Contexto Histórico y Evaluación VRIO
         </h4>
         <p className="mb-4">
@@ -53,7 +53,7 @@ export const caso1 = {
         
         {/* PESTEL y Porter */}
         <div className="bg-gray-50 p-6 md:p-8 rounded-lg shadow-sm border border-gray-200">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <Globe className="mr-2" size={24}/> PESTEL & 5 Fuerzas de Porter
           </h4>
           <p className="mb-4">
@@ -66,7 +66,7 @@ export const caso1 = {
 
         {/* Diagnóstico EFI/EFE */}
         <div className="bg-gray-50 p-6 md:p-8 rounded-lg shadow-sm border border-gray-200">
-          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
+          <h4 className="border-b border-[#D4AF37] pb-2 mb-4 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-lg">
             <BarChart3 className="mr-2" size={24}/> Diagnóstico Crítico EFI / EFE
           </h4>
           <p className="mb-4">
@@ -85,7 +85,7 @@ export const caso1 = {
 
       {/* Gráfico Financiero de la Hemorragia */}
       <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-        <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-2xl">
+        <h4 className="border-b border-[#D4AF37] pb-2 mb-6 flex items-center text-[#A51C30] font-bold tracking-wide font-sans text-xl">
           <TrendingDown className="mr-3" size={28}/> El Cruce de la Muerte: La Hemorragia del EBITDA
         </h4>
         <p className="mb-6">
@@ -121,7 +121,7 @@ export const caso1 = {
         <div className="absolute top-4 right-4 text-[#A51C30] opacity-10 transform scale-150 origin-top-right">
           <ShieldAlert size={120}/>
         </div>
-        <p className="text-2xl leading-relaxed relative z-10 font-medium">
+        <p className="text-xl leading-relaxed relative z-10 font-medium">
           "Un balance inmaculado en tiempos de profunda paz geopolítica no es evidencia de resiliencia ejecutiva, es una mera coincidencia estadística. OptimaTech no fracasó por diseñar malos procesadores; están quebrando porque tercerizaron su instinto de supervivencia corporativa a un océano de distancia. El apalancamiento operativo no discrimina: te hace un titán en la subida, y te aniquila matemáticamente en la bajada."
         </p>
         <p className="mt-6 font-sans font-bold text-sm text-[#A51C30] uppercase tracking-wider relative z-10 block">
